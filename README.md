@@ -21,15 +21,12 @@
 		* text: font / color / size
 		* box model: border / margin / padding
 4. Add your story
-	* different html tags
-		* headers
-		* paragraphs
-		* divs
+	* Add pages
+	* More tags
 		* button
 		* inputs
-	* link between pages
+	* Link between pages
 5. Best practices?
 	* img alt attr
 	* file organization
 		* relative paths
-		* add folders for different file types
