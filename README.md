@@ -29,7 +29,8 @@
 		* button
 		* inputs
 	* Link between pages
-4. Best practices?
+4. Best practices + more?
 	* img alt attr
 	* file organization
 		* relative paths
+	* css animation
