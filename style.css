@@ -1,0 +1,32 @@
+body {
+	font-family: sans-serif;
+}
+
+.container {
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	margin: 10px 20px;
+	padding: 20px;
+}
+
+.animal {
+	font-size: 20px;
+}
+
+.rabbit {
+	color: red;
+	font-style: italic;
+}
+
+.turtle {
+	color: #009900;
+	font-weight: bold;
+}
+
+#rabbit {
+
+}
+
+#turtle {
+	margin-left: 750px;
+}

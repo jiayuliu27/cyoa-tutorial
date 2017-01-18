@@ -1,12 +1,12 @@
 # Welcome to Choose Your Own Adventure Tutorial!
 
-1. Set up
+0. Set up
 	* main html file
 		* doctype
 		* html
 			* head
 			* body
-2. Create the first page of your story
+1. Create the first page of your story
  	* introduce html static tags
  		* headers
  		* paragraphs
@@ -14,19 +14,22 @@
  		* imgs
  			* width and height
  	* show how to view result in browser
-3. Add style
+2. Add style
+	* add css file
+	* link css file in html
 	* css selectors
-	* attributs
+		* add classes / ids
+	* attributes
 		* background
 		* text: font / color / size
 		* box model: border / margin / padding
-4. Add your story
+3. Add your story
 	* Add pages
 	* More tags
 		* button
 		* inputs
 	* Link between pages
-5. Best practices?
+4. Best practices?
 	* img alt attr
 	* file organization
 		* relative paths
