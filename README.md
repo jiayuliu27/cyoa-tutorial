@@ -16,10 +16,8 @@
 		* text: font / color / size
 		* box model: border / margin / padding
 4. Add your story
-	* Different HTML tags
-		* headers
-		* paragraphs
-		* divs
+	* Add pages
+	* More tags
 		* button
 		* inputs
 	* Link between pages
