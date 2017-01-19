@@ -36,3 +36,9 @@
 	* file organization
 		* relative paths
 	* css animation
+5. Extra stuff students can do?
+	* add to scene
+		* finish line
+		* tree
+		* another page for story's end
+		* give rabbit choice to sleep to change story's ending
