@@ -25,13 +25,6 @@ body {
 	font-weight: bold;
 }
 
-#rabbit {
-
-}
-
-#turtle {
-}
-
 .btn {
 	display: block;
 	width: 100px;
@@ -61,4 +54,47 @@ body {
 
 #page-2 {
 	display: none;
+}
+
+@keyframes rabbit-running {
+	0% {
+		margin-left: 0;
+	}
+	30% {
+		margin-left: 60%;
+	}
+	90% {
+		margin-left: 60%;
+	}
+	100% {
+		margin-left: 90%;
+	}
+}
+
+@keyframes turtle-running {
+	0% {
+		margin-left: 0;
+	}
+	90% {
+		margin-left: 90%;
+	}
+	100% {
+		margin-left: 90%;
+	}
+}
+
+#turtle {
+	display: block;
+	-webkit-animation: turtle-running 5s 1 linear forwards;
+  -moz-animation: turtle-running 5s 1 linear forwards;
+  -o-animation: turtle-running 5s 1 linear forwards;
+	animation: turtle-running 5s 1 linear forwards;
+}
+
+#rabbit {
+	display: block;
+	-webkit-animation: turtle-running 5s 1 linear forwards;
+  -moz-animation: turtle-running 5s 1 linear forwards;
+  -o-animation: turtle-running 5s 1 linear forwards;
+	animation: rabbit-running 5s 1 linear forwards;
 }
