@@ -18,7 +18,7 @@
 	* add css file
 	* link css file in html
 	* css selectors
-		* add classes / ids
+		* add classes vs ids
 	* attributes
 		* background
 		* text: font / color / size
@@ -28,6 +28,8 @@
 	* More tags
 		* button
 		* inputs
+	* CSS
+		* pseudo classes / alt states
 	* Link between pages
 4. Best practices + more?
 	* img alt attr

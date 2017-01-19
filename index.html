@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<title>Choose Your Own Adventure</title>
-</head>
-<body>
-	<h1>The story</h1>
-	<div class="container">
-		<h2 class="page-header">Once upon a time...</h2>
-		<p>There once was a <span class="animal rabbit">rabbit</span> and a <span class="animal turtle">turtle</span>.
-			The <span class="animal rabbit">rabbit</span> was very proud of his ability to run very fast,
-			and laughed at the <span class="animal turtle">turtle</span> because he was so slow.</p>
-		<img src="rabbit.png" width="200px" id="rabbit" />
-		<img src="turtle.png" width="200px" id="turtle" />
-	</div>
-</body>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>Choose Your Own Adventure</title>
+	</head>
+	<body>
+		<h1>The story</h1>
+		<div class="container" id="page-1">
+			<h2 class="page-header">Once upon a time...</h2>
+			<p>There once was a <span class="animal rabbit">rabbit</span> and a <span class="animal turtle">turtle</span>.
+				The <span class="animal rabbit">rabbit</span> was very proud of his ability to run very fast,
+				and laughed at the <span class="animal turtle">turtle</span> because he was so slow.</p>
+			<img src="rabbit.png" width="200px" id="rabbit" />
+			<img src="turtle.png" width="200px" id="turtle" />
+			<button class="btn btn-next" id="next">&#8594;</button>
+		</div>
+		<div class="container" id="page-2">
+			<h2 class="page-header">The next day...</h2>
+			<p>The <span class="animal turtle">turtle</span> decided to race the <span class="animal rabbit">rabbit</span>.</p>
+			<img src="race.png" width="400px" id="race" />
+			<input type="button" value="&#8592;" class="btn btn-prev" id="prev"/>
+		</div>
+		<script src="functions.js"></script>
+	</body>
 </html>
