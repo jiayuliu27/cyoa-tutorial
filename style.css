@@ -56,6 +56,50 @@ body {
 	display: none;
 }
 
+@-webkit-keyframes rabbit-running {
+	0% {
+		margin-left: 0;
+	}
+	30% {
+		margin-left: 60%;
+	}
+	90% {
+		margin-left: 60%;
+	}
+	100% {
+		margin-left: 90%;
+	}
+}
+
+@-moz-keyframes rabbit-running {
+	0% {
+		margin-left: 0;
+	}
+	30% {
+		margin-left: 60%;
+	}
+	90% {
+		margin-left: 60%;
+	}
+	100% {
+		margin-left: 90%;
+	}
+}
+
+@-o-keyframes rabbit-running {
+	0% {
+		margin-left: 0;
+	}
+	30% {
+		margin-left: 60%;
+	}
+	90% {
+		margin-left: 60%;
+	}
+	100% {
+		margin-left: 90%;
+	}
+}
 @keyframes rabbit-running {
 	0% {
 		margin-left: 0;
@@ -65,6 +109,40 @@ body {
 	}
 	90% {
 		margin-left: 60%;
+	}
+	100% {
+		margin-left: 90%;
+	}
+}
+
+@-webkit-keyframes turtle-running {
+	0% {
+		margin-left: 0;
+	}
+	90% {
+		margin-left: 90%;
+	}
+	100% {
+		margin-left: 90%;
+	}
+}
+@-moz-keyframes turtle-running {
+	0% {
+		margin-left: 0;
+	}
+	90% {
+		margin-left: 90%;
+	}
+	100% {
+		margin-left: 90%;
+	}
+}
+@-o-keyframes turtle-running {
+	0% {
+		margin-left: 0;
+	}
+	90% {
+		margin-left: 90%;
 	}
 	100% {
 		margin-left: 90%;
@@ -86,15 +164,15 @@ body {
 #turtle {
 	display: block;
 	-webkit-animation: turtle-running 5s 1 linear forwards;
-  -moz-animation: turtle-running 5s 1 linear forwards;
-  -o-animation: turtle-running 5s 1 linear forwards;
+	-moz-animation: turtle-running 5s 1 linear forwards;
+	-o-animation: turtle-running 5s 1 linear forwards;
 	animation: turtle-running 5s 1 linear forwards;
 }
 
 #rabbit {
 	display: block;
 	-webkit-animation: turtle-running 5s 1 linear forwards;
-  -moz-animation: turtle-running 5s 1 linear forwards;
-  -o-animation: turtle-running 5s 1 linear forwards;
+	-moz-animation: turtle-running 5s 1 linear forwards;
+	-o-animation: turtle-running 5s 1 linear forwards;
 	animation: rabbit-running 5s 1 linear forwards;
 }
