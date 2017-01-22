@@ -189,5 +189,26 @@ body {
 .race-scene {
 	position: relative;
 	min-height: 400px;
-	background: url("./images/tree.png") no-repeat 75% 0 / 300px auto;
+	background: url("./images/tree.png") no-repeat 60% 0 / 300px auto;
+}
+
+.race-scene:before {
+	content: '';
+  position: absolute;
+  z-index: -1;
+  top: -100px;
+  bottom: 0;
+  left: 90%;
+	background: url("./images/finish-line.png") no-repeat center center / 100px auto;
+	width: 100px;
+}
+
+.race-scene:after {
+	content: '';
+  position: absolute;
+  z-index: -1;
+  top: 200px;
+  bottom: 0;
+  left: 90%;
+	border-right: 1px dotted #000;
 }
