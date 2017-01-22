@@ -13,7 +13,7 @@
 				and laughed at the <span class="animal turtle">turtle</span> because he was so slow.</p>
 			<img src="./images/rabbit.png" width="200px" alt="rabbit" />
 			<img src="./images/turtle.png" width="200px" alt="turtle" />
-			<button class="btn btn-next" id="next">&#8594;</button>
+			<button onclick="next(2)" class="btn btn-next" id="next">&#8594;</button>
 		</div>
 		<div class="container" id="page-2">
 			<h2 class="page-header">The next day...</h2>
@@ -22,7 +22,13 @@
 				<img src="./images/racing-turtle.png" width="100px" id="turtle" alt="racing turtle" />
 				<img src="./images/racing-rabbit.png" width="100px" id="rabbit" alt="racing rabbit" />
 			</div>
-			<input type="button" value="&#8592;" class="btn btn-prev" id="prev"/>
+			<input type="button" onclick="prev(1)" value="&#8592;" class="btn btn-prev" id="prev"/>
+			<button onclick="next(3)" class="btn btn-next" id="next">&#8594;</button>
+		</div>
+		<div class="container" id="page-3">
+			<h2 class="page-header">Moral of the story</h2>
+			<p>Slow and steady wins the race</p>
+			<input type="button" onclick="prev(2)" value="&#8592;" class="btn btn-prev" id="prev"/>
 		</div>
 		<script src="functions.js"></script>
 	</body>

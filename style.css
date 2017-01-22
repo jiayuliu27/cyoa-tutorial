@@ -4,7 +4,9 @@ body {
 }
 
 .container {
+	position: relative;
 	width: 100%;
+	min-height: 200px;
 	border: 1px solid #ddd;
 	border-radius: 5px;
 	margin: 10px 20px;
@@ -26,7 +28,8 @@ body {
 }
 
 .btn {
-	display: block;
+	position: absolute;
+	display: inline-block;
 	width: 100px;
 	height: 50px;
 	cursor: pointer;
@@ -35,6 +38,7 @@ body {
 	background-color: #217bce;
 
 	margin: 10px;
+	bottom: 20px;
 	border: none;
 	border-radius: 5px;
 	padding: 5px 10px;
@@ -45,11 +49,11 @@ body {
 }
 
 .btn-next {
-	margin: 5% 0 0 90%;
+	right: 20px;
+	/*margin: 5% 0 0 90%;*/
 }
 
 .btn-prev {
-	margin-top: 5%;
 }
 
 #page-2 {
@@ -190,6 +194,7 @@ body {
 	position: relative;
 	min-height: 400px;
 	background: url("./images/tree.png") no-repeat 60% 0 / 300px auto;
+	margin-bottom: 100px;
 }
 
 .race-scene:before {
@@ -212,4 +217,8 @@ body {
   left: 90%;
 	border-right: 1px dotted #000;
 	width: 50px;
+}
+
+#page-3 {
+	display: none;
 }
