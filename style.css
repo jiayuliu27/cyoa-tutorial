@@ -162,17 +162,32 @@ body {
 }
 
 #turtle {
-	display: block;
+	position: absolute;
+	bottom: 100px;
 	-webkit-animation: turtle-running 5s 1 linear forwards;
 	-moz-animation: turtle-running 5s 1 linear forwards;
 	-o-animation: turtle-running 5s 1 linear forwards;
 	animation: turtle-running 5s 1 linear forwards;
+
 }
 
 #rabbit {
-	display: block;
+	position: absolute;
+	bottom: 0;
 	-webkit-animation: turtle-running 5s 1 linear forwards;
 	-moz-animation: turtle-running 5s 1 linear forwards;
 	-o-animation: turtle-running 5s 1 linear forwards;
 	animation: rabbit-running 5s 1 linear forwards;
+}
+
+#tree {
+	position: absolute;
+	right: 25%;
+	z-index: -1;
+}
+
+.race-scene {
+	position: relative;
+	min-height: 400px;
+	background: url("./images/tree.png") no-repeat 75% 0 / 300px auto;
 }
